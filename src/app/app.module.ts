@@ -19,6 +19,7 @@ import { MatCardModule } from "@angular/material/card";
 import { MatDialogModule } from "@angular/material/dialog";
 import { MatInputModule } from "@angular/material";
 import { MatFormFieldModule } from "@angular/material/form-field";
+import { CadastroComponent } from './pages/cadastro/cadastro.component';
 
 @NgModule({
 	declarations: [
@@ -29,7 +30,8 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 		SearchComponent,
 		ContactListComponent,
 		ContactFormComponent,
-		ContactBoxComponent
+		ContactBoxComponent,
+		CadastroComponent
 	],
 	imports: [
 		BrowserModule,
