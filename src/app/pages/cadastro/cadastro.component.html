@@ -1,12 +1,12 @@
 <app-header></app-header>
 <section class="container">
-   <button mat-flat-button color="primary" routerLink="/" aria-label="Voltar">
-      <mat-icon>keyboard_arrow_left</mat-icon> Voltar
-   </button>
-   <h2>{{ contact.name }}</h2>
-   <mat-card>
-
-   </mat-card>
-   <h2>Adicionar novo Contato</h2>
-  
+    <app-contact-form ></app-contact-form>
+    <div>
+        <button style="margin-right: 5px; float: left;" mat-flat-button color="primary" routerLink="/" aria-label="Salvar">
+            <mat-icon>save</mat-icon> Gravar
+         </button>
+        <button mat-flat-button color="warn" routerLink="/" aria-label="Voltar">
+           <mat-icon>keyboard_arrow_left</mat-icon> Voltar
+        </button>
+    </div>
 </section>
