@@ -19,14 +19,14 @@ export class HomeComponent implements OnInit {
 			{
 				id: 1,
 				email: 'teste@teste.com.br',
-				name: 'alexandre reveilleau dos reis',
-				phoneNumber: '54 99999-9999'
+				name: 'Carlos Eduardo da Costa',
+				phoneNumber: '54 9106-1242'
 			},
 			{
 				id: 2,
-				email: 'teste2@teste2.com.br',
-				name: 'alexandre reveilleau dos reis 222',
-				phoneNumber: '54 2222-22222'
+				email: 'teste@teste.com.br',
+				name: 'Carlos Eduardo da Costa',
+				phoneNumber: '54 9106-1242'
 			},
 		]
 		console.log(this.filteredContacts)
